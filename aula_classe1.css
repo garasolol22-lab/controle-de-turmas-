@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "cor.css";
+
+@font-face {
+    font-family: pokemon  ;
+    src: url(font/pokemon/pokemon.ttf);
+}
+body ,html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--PRIMARY-BG--COLOR)
+
+    }
+h2,h3{
+    background-color:  var(--cor1);
+    font-size: large;
+}
+h4,h5{
+    background-color: yellow;
+    background-color: var(--cor1);
+
+
+}
+header{
+    background-color: red;
+    color: aliceblue;
+}
+.menu{
+    background-color: transparent;
+    color: aliceblue;
+
+
+}
+.menu ul {
+    display: inline-block;
+    color:aliceblue;
+
+}
+.menu ul li{
+    display: inline-block;
+    color: aliceblue;
+    background-color: beige;
+    padding:  20px;
+    border: 1px solid ;
+
+}
+.menu ul li a {
+    color: yellow;
+    font-size larger;
+
+}
+seletion {
+    background-color: aqua;
+
+}
+selection seletion selection{
+    display: inline-block;
+    vertical-align:  top;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+header h2 {
+    font-size: small;
+    text-align: center;
+
+}
+seletion selection selection footer{
+    background-color: red;
+
+}
+seletion selection selection footer{
+    font-size: smaller;
+}
